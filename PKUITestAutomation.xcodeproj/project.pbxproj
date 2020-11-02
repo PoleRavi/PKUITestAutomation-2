@@ -7,26 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9605F31F254B5E5100013BA9 /* PKUISteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605F31E254B5E5100013BA9 /* PKUISteps.swift */; };
+		9605F323254B5E7700013BA9 /* PKUIElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605F322254B5E7700013BA9 /* PKUIElements.swift */; };
+		961FBC672548125C000F60B7 /* PKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961FBC662548125C000F60B7 /* PKUITests.swift */; };
+		961FBC77254813C7000F60B7 /* BDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961FBC76254813C7000F60B7 /* BDDUITests.swift */; };
+		961FBC81254876A4000F60B7 /* PKUITestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961FBC80254876A4000F60B7 /* PKUITestBase.swift */; };
 		A4A25BA224E31C4D00149311 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A25BA124E31C4D00149311 /* AppDelegate.swift */; };
 		A4A25BA424E31C4D00149311 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A25BA324E31C4D00149311 /* SceneDelegate.swift */; };
-		A4A25BA624E31C4D00149311 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A25BA524E31C4D00149311 /* ViewController.swift */; };
-		A4A25BA924E31C4D00149311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A25BA724E31C4D00149311 /* Main.storyboard */; };
+		A4A25BA624E31C4D00149311 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A25BA524E31C4D00149311 /* LoginVC.swift */; };
 		A4A25BAB24E31C5000149311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A25BAA24E31C5000149311 /* Assets.xcassets */; };
 		A4A25BAE24E31C5000149311 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A25BAC24E31C5000149311 /* LaunchScreen.storyboard */; };
+		A4A25BB624E31E5900149311 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A25BB524E31E5900149311 /* LoginViewModel.swift */; };
+		A4A25BB824E31E8500149311 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A25BB724E31E8500149311 /* Bindable.swift */; };
+		A4A25BBA24E31F7F00149311 /* CustomedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A25BB924E31F7F00149311 /* CustomedTextField.swift */; };
+		A4A25BBC24E3207D00149311 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A25BBB24E3207D00149311 /* UIView+Ext.swift */; };
+		A4A25BC224E32AD300149311 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A25BC124E32AD300149311 /* SettingsController.swift */; };
+		A4A25BC424E32BE400149311 /* AgeRangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A25BC324E32BE400149311 /* AgeRangeCell.swift */; };
+		A4A25BC624E32CE900149311 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A25BC524E32CE900149311 /* SettingsCell.swift */; };
+		A4A25BC824E3401500149311 /* ConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A25BC724E3401500149311 /* ConfirmationVC.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		961FBC692548125C000F60B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4A25B9624E31C4D00149311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A25B9D24E31C4D00149311;
+			remoteInfo = PKUITestAutomation;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		9605F31E254B5E5100013BA9 /* PKUISteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKUISteps.swift; sourceTree = "<group>"; };
+		9605F322254B5E7700013BA9 /* PKUIElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKUIElements.swift; sourceTree = "<group>"; };
+		961FBC642548125C000F60B7 /* PKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		961FBC662548125C000F60B7 /* PKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKUITests.swift; sourceTree = "<group>"; };
+		961FBC682548125C000F60B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961FBC76254813C7000F60B7 /* BDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDDUITests.swift; sourceTree = "<group>"; };
+		961FBC80254876A4000F60B7 /* PKUITestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKUITestBase.swift; sourceTree = "<group>"; };
 		A4A25B9E24E31C4D00149311 /* PKUITestAutomation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PKUITestAutomation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A25BA124E31C4D00149311 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4A25BA324E31C4D00149311 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4A25BA524E31C4D00149311 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A4A25BA824E31C4D00149311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4A25BA524E31C4D00149311 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		A4A25BAA24E31C5000149311 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4A25BAD24E31C5000149311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4A25BAF24E31C5000149311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A25BB524E31E5900149311 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A4A25BB724E31E8500149311 /* Bindable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		A4A25BB924E31F7F00149311 /* CustomedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomedTextField.swift; sourceTree = "<group>"; };
+		A4A25BBB24E3207D00149311 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		A4A25BC124E32AD300149311 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		A4A25BC324E32BE400149311 /* AgeRangeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeRangeCell.swift; sourceTree = "<group>"; };
+		A4A25BC524E32CE900149311 /* SettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		A4A25BC724E3401500149311 /* ConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		961FBC612548125C000F60B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4A25B9B24E31C4D00149311 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +80,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9605F318254A867C00013BA9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				961FBC662548125C000F60B7 /* PKUITests.swift */,
+				961FBC76254813C7000F60B7 /* BDDUITests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		9605F319254A868800013BA9 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				9605F31E254B5E5100013BA9 /* PKUISteps.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		9605F31A254A86A000013BA9 /* XCUIelements */ = {
+			isa = PBXGroup;
+			children = (
+				9605F322254B5E7700013BA9 /* PKUIElements.swift */,
+			);
+			path = XCUIelements;
+			sourceTree = "<group>";
+		};
+		9605F31B254A86B800013BA9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				961FBC80254876A4000F60B7 /* PKUITestBase.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		961FBC652548125C000F60B7 /* PKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9605F31B254A86B800013BA9 /* Base */,
+				9605F31A254A86A000013BA9 /* XCUIelements */,
+				9605F319254A868800013BA9 /* Steps */,
+				9605F318254A867C00013BA9 /* Tests */,
+				961FBC682548125C000F60B7 /* Info.plist */,
+			);
+			path = PKUITests;
+			sourceTree = "<group>";
+		};
 		A4A25B9524E31C4D00149311 = {
 			isa = PBXGroup;
 			children = (
 				A4A25BA024E31C4D00149311 /* PKUITestAutomation */,
+				961FBC652548125C000F60B7 /* PKUITests */,
 				A4A25B9F24E31C4D00149311 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				A4A25B9E24E31C4D00149311 /* PKUITestAutomation.app */,
+				961FBC642548125C000F60B7 /* PKUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,20 +146,85 @@
 		A4A25BA024E31C4D00149311 /* PKUITestAutomation */ = {
 			isa = PBXGroup;
 			children = (
+				A4A25BC924E34CFA00149311 /* Confirmation */,
+				A4A25BC024E32AA500149311 /* UserSettings */,
+				A4A25BBE24E3214800149311 /* Binding */,
+				A4A25BBD24E3213000149311 /* Login */,
 				A4A25BA124E31C4D00149311 /* AppDelegate.swift */,
 				A4A25BA324E31C4D00149311 /* SceneDelegate.swift */,
-				A4A25BA524E31C4D00149311 /* ViewController.swift */,
-				A4A25BA724E31C4D00149311 /* Main.storyboard */,
 				A4A25BAA24E31C5000149311 /* Assets.xcassets */,
 				A4A25BAC24E31C5000149311 /* LaunchScreen.storyboard */,
 				A4A25BAF24E31C5000149311 /* Info.plist */,
+				A4A25BBB24E3207D00149311 /* UIView+Ext.swift */,
 			);
 			path = PKUITestAutomation;
+			sourceTree = "<group>";
+		};
+		A4A25BBD24E3213000149311 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A4A25BBF24E3215F00149311 /* CustomLoginViews */,
+				A4A25BA524E31C4D00149311 /* LoginVC.swift */,
+				A4A25BB524E31E5900149311 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A4A25BBE24E3214800149311 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				A4A25BB724E31E8500149311 /* Bindable.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		A4A25BBF24E3215F00149311 /* CustomLoginViews */ = {
+			isa = PBXGroup;
+			children = (
+				A4A25BB924E31F7F00149311 /* CustomedTextField.swift */,
+			);
+			path = CustomLoginViews;
+			sourceTree = "<group>";
+		};
+		A4A25BC024E32AA500149311 /* UserSettings */ = {
+			isa = PBXGroup;
+			children = (
+				A4A25BC124E32AD300149311 /* SettingsController.swift */,
+				A4A25BC524E32CE900149311 /* SettingsCell.swift */,
+				A4A25BC324E32BE400149311 /* AgeRangeCell.swift */,
+			);
+			path = UserSettings;
+			sourceTree = "<group>";
+		};
+		A4A25BC924E34CFA00149311 /* Confirmation */ = {
+			isa = PBXGroup;
+			children = (
+				A4A25BC724E3401500149311 /* ConfirmationVC.swift */,
+			);
+			path = Confirmation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		961FBC632548125C000F60B7 /* PKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961FBC6D2548125C000F60B7 /* Build configuration list for PBXNativeTarget "PKUITests" */;
+			buildPhases = (
+				961FBC602548125C000F60B7 /* Sources */,
+				961FBC612548125C000F60B7 /* Frameworks */,
+				961FBC622548125C000F60B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				961FBC6A2548125C000F60B7 /* PBXTargetDependency */,
+			);
+			name = PKUITests;
+			productName = PKUITests;
+			productReference = 961FBC642548125C000F60B7 /* PKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		A4A25B9D24E31C4D00149311 /* PKUITestAutomation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4A25BB224E31C5000149311 /* Build configuration list for PBXNativeTarget "PKUITestAutomation" */;
@@ -93,10 +248,14 @@
 		A4A25B9624E31C4D00149311 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = "T-Mobile Inc";
 				TargetAttributes = {
+					961FBC632548125C000F60B7 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = A4A25B9D24E31C4D00149311;
+					};
 					A4A25B9D24E31C4D00149311 = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -116,29 +275,56 @@
 			projectRoot = "";
 			targets = (
 				A4A25B9D24E31C4D00149311 /* PKUITestAutomation */,
+				961FBC632548125C000F60B7 /* PKUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		961FBC622548125C000F60B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4A25B9C24E31C4D00149311 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A4A25BAE24E31C5000149311 /* LaunchScreen.storyboard in Resources */,
 				A4A25BAB24E31C5000149311 /* Assets.xcassets in Resources */,
-				A4A25BA924E31C4D00149311 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		961FBC602548125C000F60B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961FBC77254813C7000F60B7 /* BDDUITests.swift in Sources */,
+				961FBC81254876A4000F60B7 /* PKUITestBase.swift in Sources */,
+				9605F31F254B5E5100013BA9 /* PKUISteps.swift in Sources */,
+				9605F323254B5E7700013BA9 /* PKUIElements.swift in Sources */,
+				961FBC672548125C000F60B7 /* PKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4A25B9A24E31C4D00149311 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4A25BA624E31C4D00149311 /* ViewController.swift in Sources */,
+				A4A25BC824E3401500149311 /* ConfirmationVC.swift in Sources */,
+				A4A25BC424E32BE400149311 /* AgeRangeCell.swift in Sources */,
+				A4A25BC224E32AD300149311 /* SettingsController.swift in Sources */,
+				A4A25BB824E31E8500149311 /* Bindable.swift in Sources */,
+				A4A25BBA24E31F7F00149311 /* CustomedTextField.swift in Sources */,
+				A4A25BC624E32CE900149311 /* SettingsCell.swift in Sources */,
+				A4A25BB624E31E5900149311 /* LoginViewModel.swift in Sources */,
+				A4A25BA624E31C4D00149311 /* LoginVC.swift in Sources */,
+				A4A25BBC24E3207D00149311 /* UIView+Ext.swift in Sources */,
 				A4A25BA224E31C4D00149311 /* AppDelegate.swift in Sources */,
 				A4A25BA424E31C4D00149311 /* SceneDelegate.swift in Sources */,
 			);
@@ -146,15 +332,15 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		A4A25BA724E31C4D00149311 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4A25BA824E31C4D00149311 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		961FBC6A2548125C000F60B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4A25B9D24E31C4D00149311 /* PKUITestAutomation */;
+			targetProxy = 961FBC692548125C000F60B7 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		A4A25BAC24E31C5000149311 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -166,6 +352,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		961FBC6B2548125C000F60B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G98RH7PDCS;
+				INFOPLIST_FILE = PKUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoursravindra.ios.PKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PKUITestAutomation;
+			};
+			name = Debug;
+		};
+		961FBC6C2548125C000F60B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G98RH7PDCS;
+				INFOPLIST_FILE = PKUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoursravindra.ios.PKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PKUITestAutomation;
+			};
+			name = Release;
+		};
 		A4A25BB024E31C5000149311 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -192,6 +420,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +481,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -319,6 +549,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		961FBC6D2548125C000F60B7 /* Build configuration list for PBXNativeTarget "PKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961FBC6B2548125C000F60B7 /* Debug */,
+				961FBC6C2548125C000F60B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A4A25B9924E31C4D00149311 /* Build configuration list for PBXProject "PKUITestAutomation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
